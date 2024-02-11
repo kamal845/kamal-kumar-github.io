@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.imagine1{
+  width:50px;
+}
+
+.imagine2{
+  width:100%;
+  height:40%;
+}
+
+.imagine3{
+  width:50%;
+  height:20%;
+}
+
+.imagine4{
+  width:100%;
+  height:36%;
+}
+p{
+  width:36%;
+  margin:auto;
+  font-weight: bold;
+  font-size: 17px;
+}
+.kuppy{
+  text-align:center;
+  font-weight:bold;
+  font-size:55px;
+  padding:100px 0px 10px 0px;
+}
+a.nav-link{
+  color:white;
+}
+h6{
+  text-align:center;
+  font-weight:bold;
+  padding: 20px 0px 60px 0px;
+}
+div.navbar-nav{
+  margin-left:auto;
+}
+.section1{
+text-align: center;
+background-color:black;
+}
+.section1 h3{
+  text-align: center;
+  font-weight:bold;
+  font-size:25px;
+  color:white;
+}
+.section2{
+  text-align: center;
+ background-color: #3DBA41;
+}
+.section1 h4{
+  color:white;
+  margin: 0px !important;
+}
+.section1 h5{
+  color:white;
+  margin:0px 0px 90px 0px;
+}
+.section2 h4{
+  color:white;
+}
+.section2 h5{
+  color:white;
+}
+.section1 b{
+  color:green;
+}
+.section1 strong{
+  color:white;
+}
+.section1 h6{
+  color:rgb(243, 189, 13);
+}
+.hike{
+  border-radius:30px;
+  background-color:#3DBA41;
+  color:white;
+  text-align:center;
+}
+.imagine007:hover{
+ cursor:pointer;
+}
+.imagine007{
+  width:49%;
+ }
+.imagine00007{
+  width:50%;
+}
+.imagine00007:hover{
+  cursor:pointer;
+}
+.imagine888{
+  width:49%;
+}
+.imagine888:hover{
+  cursor:pointer;
+}
+.sike1{
+  border-right:1px solid white;
+}
+
+.sike2{
+  border-right:1px solid white;
+}
+.sike3{
+  border-right:1px solid white;
+}
+
+/* for responsive  */
+@media only screen and (max-width: 768px) {
+ p{
+  width:90%;
+  margin:auto;
+ }
+ .imagine3{
+  width:100%;
+ }
+
+ .imagine007{
+  width:100%;
+ }
+
+ .imagine00007{
+  width:100%;
+ }
+
+ .imagine888{
+  width:100%;
+ }
+ div.section1.p-0.col-6{
+  width:100%;
+  margin:auto;
+ }
+
+ div.section2.p-0.col-6{
+  width:100%;
+  margin:auto;
+ }
+
+.section1 h4{
+ font-size:15px;
+}
+.section1 h5{
+  font-size:15px;
+}
+.kuppy{
+  font-size:34px;
+}
+.sike1{
+  border-right:1px solid white;
+}
+
+.sike2{
+  border-right:1px solid white;
+}
+.sike3{
+  border-right:1px solid white;
+}
+div.col-md{
+  width:50%;
+}
+}
